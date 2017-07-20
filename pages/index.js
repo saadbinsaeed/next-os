@@ -1,16 +1,26 @@
 import React from 'react';
-import Link from 'next/link';
-import Layout from '../components/Layout';
+// import SiteGridWidget from '../components/Site/SitesGrid/SitesGrid.container';
+// import AbsoluteCenterLayout from '../layouts/AbsoluteCenterLayout';
+import AppDrawer from '../components/AppDrawer/AppDrawer.component';
+import Layout from '../layouts/Layout';
+// import $ from 'jquery';
 
-const Index = () => (
-  <Layout>
-    <div>
-      <Link href="/about">
-        <a>About Page</a>
-      </Link>
-      <p>Hello Next.js</p>
-    </div>
-  </Layout>
-);
+const IndexPage = () => ({
 
-export default Index;
+  render() {
+    // console.log('Props in index page is : ', this.props);
+    const background = {
+      background: 'url(/static/app-drawer-background.jpg) top right no-repeat fixed',
+      height: '500vh',
+    };
+    return (
+      <Layout>
+      <div style={background} >
+        <AppDrawer {...this.props} />
+      </div>
+      </Layout>
+    );
+  }
+});
+
+export default IndexPage;

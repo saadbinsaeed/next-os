@@ -1,0 +1,23 @@
+.icon-card .card-block {
+  padding: 16px;
+}
+
+.icon-card .card-icon {
+  font-size: 105px;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  line-height: 105px;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.icon-card .card-title {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.icon-card .card-text {
+  font-size: .8rem;
+}
+
+/*# sourceMappingURL=icon-card.css.map */
