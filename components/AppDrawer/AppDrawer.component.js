@@ -11,7 +11,7 @@ import filter from 'lodash/filter';
 import { showFlashBanner  } from 'bluerain-client-services';
 // import store from '../../redux/store';
 // import apps from '../../server/appLoader';
-//import './AppDrawer.css';
+import AppDrawercss from './AppDrawer.css';
 // import { DEV } from '../../server/config';
 // redux store
 //import { setViewAs, setFilter, setSearch } from '../../redux/actions';
@@ -221,10 +221,9 @@ class AppDrawer extends React.Component {
     };
     return (
       <div>
-        <link rel="stylesheet" href="/static/AppDrawer.css" />
-    <link rel="stylesheet" href="/static/bluerain-bootstrap-theme.css" />
+        <style dangerouslySetInnerHTML={{ __html: AppDrawercss }} />
       <div className="container-fluid">
-       
+
         <div className="row top-bar">
           <div className={`col-lg-5 offset-lg-1 col-xs-${windowWidth < 500 ? '12' : '6'} col-sm-6 top-bar-filters`}>
             View As:&nbsp;
@@ -251,7 +250,7 @@ class AppDrawer extends React.Component {
         {
           //this.printIcons()
         }
-        
+
       </div>
       </div>
     );

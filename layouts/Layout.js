@@ -3,7 +3,7 @@ import { Notifications, withSystemNav, FlashBanner, LoadingBar } from 'bluerain-
 import withData from '../lib/withData'
 import { connect } from 'react-redux';
 //import './system.css';
-//import 'bluerain-bootstrap-theme/dist/css/layouts/system-layout.css';
+import layoutcss from 'bluerain-bootstrap-theme/dist/css/layouts/system-layout.css';
 import SystemNav from '../components/SystemNav';
 
 
@@ -38,7 +38,7 @@ const loadingBarStyle = {
 
       return (
           <div>
-              <link rel="stylesheet" href="/static/layouts/system-layout.css" />
+            <style dangerouslySetInnerHTML={{ __html: layoutcss }} />
         <div className="system-layout">
           {/*<LoadingBar style={loadingBarStyle} showFastActions progressIncrease={3} />*/}
           {/*<Notifications />*/}
@@ -63,7 +63,7 @@ Layout.defaultProps = {
   showFlashBanner: false,
   showAppBar: false,
 };
- export default Layout;
+ export default withData(Layout);
 
 // make a connection of your component with the store
 // const mapStateToProps = (state) => {
@@ -74,5 +74,5 @@ Layout.defaultProps = {
 // const FilterLayout = connect(
 //   mapStateToProps,
 // )(Layout);
-
-// export default withData(withSystemNav(FilterLayout));
+//
+// export default withData(FilterLayout);

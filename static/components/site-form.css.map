@@ -1,9 +1,0 @@
-{
-	"version": 3,
-	"file": "site-form.css",
-	"sources": [
-		"../../../scss/components/site-form.scss"
-	],
-	"mappings": "AAAA,AACI,UADM,CACN,WAAW,CAAC;EACR,aAAa,EAAE,CAAE;CACpB;;AAHL,AAKI,UALM,CAKN,gBAAgB,CAAC;EACb,OAAO,EAAE,IAAK;CACjB;;AAPL,AASI,UATM,CASN,WAAW,CAAC;EACR,aAAa,EAAE,IAAK;CACvB;;AAXL,AAaI,UAbM,CAaN,SAAS,CAAC;EACN,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;CAChB",
-	"names": []
-}

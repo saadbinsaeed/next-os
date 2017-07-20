@@ -1,5 +1,5 @@
 {
-  "name": "next.js-css-global-style-test",
+  "name": "next-os",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start"
   },
-  "author": "Davide Bertola <dade@dadeb.it>",
+  "author": "Blueest",
   "license": "ISC",
   "dependencies": {
     "apollo-client": "^1.9.0-0",
