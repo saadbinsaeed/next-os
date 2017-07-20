@@ -1,9 +1,0 @@
-{
-	"version": 3,
-	"file": "flexbox-layout.css",
-	"sources": [
-		"../../../scss/layouts/flexbox-layout.scss"
-	],
-	"mappings": "AAAA,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,IAAK;EACd,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;EACb,QAAQ,EAAE,QAAS;CACpB",
-	"names": []
-}
