@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "absolute-center-layout.css",
+	"sources": [
+		"../../../scss/layouts/absolute-center-layout.scss"
+	],
+	"mappings": "AAAA,AAAA,uBAAuB,CAAC;EACtB,SAAS,EAAE,CAAE;EACb,UAAU,EAAE,OAAQ;EACpB,OAAO,EAAE,IAAK;EACd,eAAe,EAAE,MAAO;EACxB,WAAW,EAAE,MAAO;CACrB",
+	"names": []
+}

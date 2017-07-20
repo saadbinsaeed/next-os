@@ -1,0 +1,121 @@
+.red-gradient {
+  background-image: linear-gradient(to bottom, #FA7866, #f44336);
+}
+
+.pink-gradient {
+  background-image: linear-gradient(to bottom, #F6409C, #e91e63);
+}
+
+.purple-gradient {
+  background-image: linear-gradient(to bottom, #CB4FD8, #9c27b0);
+}
+
+.deep-purple-gradient {
+  background-image: linear-gradient(to bottom, #A06CDC, #673ab7);
+}
+
+.indigo-gradient {
+  background-image: linear-gradient(to bottom, #7389DB, #3f51b5);
+}
+
+.blue-gradient {
+  background-image: linear-gradient(to bottom, #45C7FA, #2196f3);
+}
+
+.light-blue-gradient {
+  background-image: linear-gradient(to bottom, #07D4FA, #03a9f4);
+}
+
+.cyan-gradient {
+  background-image: linear-gradient(to bottom, #00DFEC, #00bcd4);
+}
+
+.teal-gradient {
+  background-image: linear-gradient(to bottom, #00C7BD, #009688);
+}
+
+.green-gradient {
+  background-image: linear-gradient(to bottom, #83D888, #4caf50);
+}
+
+.light-green-gradient {
+  background-image: linear-gradient(to bottom, #BFE381, #8bc34a);
+}
+
+.lime-gradient {
+  background-image: linear-gradient(to bottom, #E8F06B, #cddc39);
+}
+
+.yellow-gradient {
+  background-image: linear-gradient(to bottom, #FFF76D, #ffeb3b);
+}
+
+.amber-gradient {
+  background-image: linear-gradient(to bottom, #FFE211, #ffc107);
+}
+
+.orange-gradient {
+  background-image: linear-gradient(to bottom, #FFC900, #ff9800);
+}
+
+.deep-orange-gradient {
+  background-image: linear-gradient(to bottom, #FF9047, #ff5722);
+}
+
+.brown-gradient {
+  background-image: linear-gradient(to bottom, #B18E7E, #795548);
+}
+
+.grey-gradient {
+  background-image: linear-gradient(to bottom, #CDCDCD, #9e9e9e);
+}
+
+.blue-grey-gradient {
+  background-image: linear-gradient(to bottom, #99B4BF, #607d8b);
+}
+
+.timeline-card .card-content {
+  display: flex;
+  align-items: stretch;
+}
+
+.timeline-card .card-content > * {
+  padding: 16px 0 16px 16px;
+}
+
+.timeline-card .card-content > *:last-child {
+  padding-right: 16px;
+}
+
+.timeline-card .card-image img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.timeline-card .card-body {
+  flex-grow: 1;
+  padding-top: 19px;
+}
+
+.timeline-card a.card-chevron {
+  border-left: 1px solid #eceeef;
+  color: #818a91;
+  display: flex;
+  transition: all 300ms ease;
+}
+
+.timeline-card a.card-chevron i {
+  align-self: center;
+}
+
+.timeline-card a.card-chevron:hover, .timeline-card a.card-chevron:active {
+  text-decoration: none;
+  background-color: #f7f7f9;
+}
+
+.timeline-card a.card-chevron:hover i, .timeline-card a.card-chevron:active i {
+  transform: translate(2px, 0px);
+}
+
+/*# sourceMappingURL=timeline.css.map */
