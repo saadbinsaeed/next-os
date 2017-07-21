@@ -1,4 +1,3 @@
-// 'ws://35.161.95.236:10005'
 const SERVER_IP = process.env.SERVER_IP || 'localhost';
 const WS_PORT = process.env.WS_PORT || '5000';
 const GRAPHQL_PORT = process.env.GRAPHQL_PORT || '8000';
